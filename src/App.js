@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 // components
 import Nav from './components/Nav';
 // pages
+import Home from './pages/Home';
 import BecomeDonor from './pages/BecomeDonor';
 import RequestBlood from './pages/RequestBlood';
 import SignUp from './pages/SignUp';
@@ -13,6 +14,9 @@ function App() {
     <Router>
       <Nav />
       <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route>
         <Route exact path="/becomedonor">
           <BecomeDonor />
         </Route>

@@ -6,13 +6,13 @@ const Nav = () => {
     <nav>
       <div>
         <div>
-          <a href="#">
+          <Link to="/">
             <img
               src="https://www.pikpng.com/pngl/m/252-2525544_blood-drop-by-prapanj-a-drop-of-blood.png"
               alt="logo"
               height="50"
             />
-          </a>
+          </Link>
         </div>
         <ul>
           <li><Link to="/becomedonor">Become a donor</Link></li>
