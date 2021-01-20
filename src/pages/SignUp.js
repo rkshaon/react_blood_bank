@@ -6,23 +6,23 @@ const SignUp = () => {
       <h1>Sign Up</h1>
       <form>
         <div>
-          <label for="name">Name</label>
+          <label htmlFor="name">Name</label>
           <input type="text" placeholder="Enter name" id="name" />
         </div>
         <div>
-          <label for="mobile1">Mobile</label>
+          <label htmlFor="mobile1">Mobile</label>
           <input type="text" placeholder="Enter mobile" id="mobile1" />
         </div>
         <div>
-          <label for="mobile2">Alternative Mobile</label>
+          <label htmlFor="mobile2">Alternative Mobile</label>
           <input type="text" placeholder="Enter mobile" id="mobile2" />
         </div>
         <div>
-          <label for="email">Email address:</label>
+          <label htmlFor="email">Email address:</label>
           <input type="email" placeholder="Enter email" id="email" />
         </div>
         <div>
-          <label for="bloodgroup">Blood Group</label>
+          <label htmlFor="bloodgroup">Blood Group</label>
           <select id="bloodgroup">
             <option>A+</option>
             <option>A-</option>
@@ -35,7 +35,7 @@ const SignUp = () => {
           </select>
         </div>
         <div>
-          <label for="religion">Religion</label>
+          <label htmlFor="religion">Religion</label>
           <select id="religion">
             <option>Islam</option>
             <option>Hindu</option>
@@ -44,22 +44,22 @@ const SignUp = () => {
           </select>
         </div>
         <div>
-          <label for="">Present Address</label>
-          <input type="text" placeholder="Union" id="" />
-          <input type="text" placeholder="Post Office" id="" />
-          <input type="text" placeholder="Police Station" id="" />
-          <input type="text" placeholder="District" id="" />
+          <label htmlFor="">Present Address</label>
+          <input type="text" placeholder="Union" id="address_union" />
+          <input type="text" placeholder="Post Office" id="address_po" />
+          <input type="text" placeholder="Police Station" id="address_ps" />
+          <input type="text" placeholder="District" id="address_district" />
         </div>
         <div>
-          <label for="weight">weight</label>
+          <label htmlFor="weight">weight</label>
           <input type="text" placeholder="Enter weight" id="weight" />
         </div>
         <div>
-          <label for="dob">Date of Birth</label>
+          <label htmlFor="dob">Date of Birth</label>
           <input type="date" placeholder="Enter weight" id="dob" />
         </div>
         <div>
-          <label for="pwd">Password:</label>
+          <label htmlFor="pwd">Password:</label>
           <input type="password" placeholder="Enter password" id="pwd" />
         </div>
         <button type="submit">Submit</button>

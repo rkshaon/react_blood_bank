@@ -1,12 +1,13 @@
-import React, { useState, useContext, useEffect } from 'react'
+import React, { useState, useContext, useEffect } from 'react';
+import admins from './data';
 const AppContext = React.createContext()
 
 const AppProvider = ({ children }) => {
-
+  // console.log(admins);
   return(
     <AppContext.Provider
       value={{
-
+        admins,
       }}
     >
       {children}

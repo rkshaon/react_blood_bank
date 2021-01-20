@@ -1,3 +1,4 @@
+import React, {useState} from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 // components
@@ -11,6 +12,14 @@ import SignUp from './pages/SignUp';
 import LogIn from './pages/LogIn';
 
 function App() {
+  const [user, setUser] = useState({name: "", email: ""});
+  const Login = (details) => {
+    console.log(details);
+  }
+
+  const Logout = () => {
+    console.log('log out');
+  }
   return (
     <Router>
       <Nav />
