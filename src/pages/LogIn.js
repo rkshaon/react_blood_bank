@@ -4,7 +4,17 @@ const LogIn = () => {
   return (
     <section>
       <h1>Log In</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis velit commodo, dignissim lectus eu, imperdiet dui. Suspendisse ornare vitae nisi eu vestibulum. Sed pretium est nec massa auctor, sit amet sagittis lectus scelerisque. Suspendisse quis viverra elit, eu volutpat est. Phasellus quis sagittis sem. Maecenas accumsan volutpat libero, sit amet egestas sapien malesuada at. Morbi tristique fermentum porta. Nunc sit amet finibus ipsum.</p>
+      <form>
+        <div>
+          <label for="email">Email address:</label>
+          <input type="email" placeholder="Enter email" id="email" />
+        </div>
+        <div>
+          <label for="pwd">Password:</label>
+          <input type="password" placeholder="Enter password" id="pwd" />
+        </div>
+        <button type="submit">Submit</button>
+      </form>
     </section>
   )
 }
