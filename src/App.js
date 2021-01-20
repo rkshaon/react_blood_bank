@@ -2,6 +2,7 @@ import './App.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 // components
 import Nav from './components/Nav';
+import Footer from './components/Footer';
 // pages
 import Home from './pages/Home';
 import BecomeDonor from './pages/BecomeDonor';
@@ -30,6 +31,7 @@ function App() {
           <LogIn />
         </Route>
       </Switch>
+      <Footer />
     </Router>
   );
 }
