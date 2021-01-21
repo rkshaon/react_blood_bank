@@ -10,6 +10,7 @@ import BecomeDonor from './pages/BecomeDonor';
 import RequestBlood from './pages/RequestBlood';
 import SignUp from './pages/SignUp';
 import LogIn from './pages/LogIn';
+import LogOut from './pages/LogOut';
 
 function App() {
   const [user, setUser] = useState({name: "", email: ""});
@@ -20,6 +21,7 @@ function App() {
   const Logout = () => {
     console.log('log out');
   }
+
   return (
     <Router>
       <Nav />
@@ -32,6 +34,9 @@ function App() {
         </Route>
         <Route exact path="/requestblood">
           <RequestBlood />
+        </Route>
+        <Route exact path="/logout">
+          <LogOut />
         </Route>
         <Route exact path="/signup">
           <SignUp />
