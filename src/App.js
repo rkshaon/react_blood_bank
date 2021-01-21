@@ -12,16 +12,7 @@ import SignUp from './pages/SignUp';
 import LogIn from './pages/LogIn';
 import LogOut from './pages/LogOut';
 
-function App() {
-  const [user, setUser] = useState({name: "", email: ""});
-  const Login = (details) => {
-    console.log(details);
-  }
-
-  const Logout = () => {
-    console.log('log out');
-  }
-
+function App() {  
   return (
     <Router>
       <Nav />

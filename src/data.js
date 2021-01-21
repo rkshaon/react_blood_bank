@@ -9,7 +9,7 @@ const admins = [
     id: 2,
     username: "shaon",
     email: 'shaon@admin.com',
-    password:"shaon",
+    password:"admin",
   },
 ];
 
